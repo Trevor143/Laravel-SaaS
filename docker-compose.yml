@@ -50,7 +50,7 @@ services:
       - laravel
 
   composer:
-    image: composer:latest
+    image: composer:1.10.1
     container_name: composer
     volumes:
       - ./src:/var/www/html
@@ -70,6 +70,16 @@ services:
     networks:
       - laravel
 
+  npx:
+    image: node:13.7
+    container_name: npx
+    volumes:
+      - ../:/var/www/html
+    entrypoint: ['npx']
+    working_dir: /var/www/html
+    networks:
+      - laravel
+
   artisan:
     build:
       context: .
@@ -81,5 +91,20 @@ services:
       - mysql
     working_dir: /var/www/html
     entrypoint: ['/var/www/html/artisan']
+    networks:
+      - laravel
+
+  # phpmyadmin
+  phpmyadmin:
+    container_name: phpmyadmin
+    depends_on:
+      - mysql
+    image: phpmyadmin/phpmyadmin:5-fpm-alpine
+    restart: always
+    ports:
+      - '9091:80'
+    environment:
+      PMA_HOST: mysql
+      MYSQL_ROOT_PASSWORD: secret
     networks:
       - laravel

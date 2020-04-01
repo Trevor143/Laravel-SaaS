@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85c4fbd2-4250-4abc-b215-51c17a0b74bb" name="Default Changelist" comment="" />
+    <list default="true" id="85c4fbd2-4250-4abc-b215-51c17a0b74bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/payment-methods/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql/auto.cnf" beforeDir="false" afterPath="$PROJECT_DIR$/../mysql/auto.cnf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql/homestead/failed_jobs.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysql/homestead/failed_jobs.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql/homestead/migrations.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysql/homestead/migrations.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql/homestead/password_resets.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysql/homestead/password_resets.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql/homestead/plans.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysql/homestead/plans.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql/homestead/subscriptions.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysql/homestead/subscriptions.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql/homestead/users.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysql/homestead/users.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/../mysql/ib_buffer_pool" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/../mysql/ib_logfile0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/../mysql/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/../mysql/ibtmp1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql/mysql/innodb_index_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysql/mysql/innodb_index_stats.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mysql/mysql/innodb_table_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/../mysql/mysql/innodb_table_stats.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nginx/default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../nginx/default.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BillingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BillingController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CheckoutController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CheckoutController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/billing/checkout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/billing/checkout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/billing/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/billing/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +44,9 @@
         <option value="Blade" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -122,9 +149,11 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1ZG6BVRbbt2FTueh6FDrCKUNU5W" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -172,11 +201,37 @@
       <workItem from="1584452948481" duration="6190000" />
       <workItem from="1584514130093" duration="192000" />
       <workItem from="1584514360455" duration="5556000" />
-      <workItem from="1584520731103" duration="11595000" />
+      <workItem from="1584520731103" duration="13377000" />
+      <workItem from="1584626159484" duration="395000" />
+      <workItem from="1585725271653" duration="13968000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/billing/index.blade.php</url>
+          <line>4</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

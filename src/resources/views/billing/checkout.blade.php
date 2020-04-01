@@ -9,24 +9,27 @@
                     <div class="card-body">
                         <div class="row">
                             <div class="col-md-6">
+                                @if(session('error'))
+                                    <div class="alert alert-danger">
+                                        {{session('error')}}
+                                    </div>
+                                @endif
+                                <form action="{{route('checkout.process')}}" method="POST" id="checkout-form">
+                                    @csrf
+                                    <input type="hidden" name="billing_plan_id" value="{{$plan->id}}">
+                                    <input type="hidden" name="payment-method" id="payment-method" value="">
 
+                                    <input id="card-holder-name" type="text" placeholder="Card Holder Name">
 
-                        <form action="{{route('checkout.process')}}" method="POST" id="checkout-form">
-                            @csrf
-                            <input type="hidden" name="billing_plan_id" value="{{$plan->id}}">
-                            <input type="hidden" name="payment-method" id="payment-method" value="">
-
-                            <input id="card-holder-name" type="text" placeholder="Card Holder Name">
-
-                            <!-- Stripe Elements Placeholder -->
-                            <div id="card-element"></div>
-                            <br>
-                            <button class="btn btn-primary" id="card-button" >
-                                Pay ${{number_format($plan->price /100 , 2 )}}
-                            </button>
-                        </form>
+                                    <!-- Stripe Elements Placeholder -->
+                                    <div id="card-element"></div>
+                                    <br/>
+                                    <button class="btn btn-primary" id="card-button" >
+                                        Pay ${{number_format($plan->price /100 , 2 )}}
+                                    </button>
+                                </form>
                             </div>
-                </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -85,6 +88,7 @@
         });
     </script>
 @endsection
+
 
 @section('styles')
     <style>
